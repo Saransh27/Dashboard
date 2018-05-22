@@ -2,69 +2,126 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="./menu.css"/>
-    <script>
-       function foo(){
-           alert('fooo')
-        };
-    </script>
-
+	<link rel="stylesheet" href="./menu.css" />
+	<link rel="stylesheet" href="./main-menu.css" />
 </head>
 
 <body>
-    <header>
-        <div class="hamburger">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-        <span class='center'>Firsst Menu</span>
 
-        <div id="mainMenu" class="mainmenu" style="position: absolute;">
-            <ul class="firstLevelMenu">
-                <li>
-                    l1 kdjakljksjdklsjdskljlk
-                    <ul class="hidden">
-                        <li class="submenubackbtn">back</li>
-                        <li>
-                            L11
-                        </li>
-                        <li>
-                            L12
-                        </li>
-                        <li>
-                            L13
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    l2
-                </li>
-                <li>
-                    l3
-                </li>
-            </ul>
-        </div>
-       
-    </header>
-            <div class="backdrop hidden">
-                    sfsfhlshflsfhlsfklshflhslfhklshflkshflhsklfhshflhsflhsklfhsklhflsdhflsdhfklhsfklshfklsdhfklsdfh
-            </div>
-            <Main>
-                <div class="content">Saransh Mehra
-                    <div>dsdasdasdda</div>
-                    <div>dsdasdasdda</div>
-                    <div>dsdasdasdda</div>
-                    <div>dsdasdasdda</div>
-                    <div>dsdasdasdda</div>
-                    <div>dsdasdasdda</div>
-                    <div>dsdasdasdda</div>
-                </div>
-            </Main>
+	<header class="mobileMenu">
+		<div class="hamburger">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+		<span class='center'>Firsst Menu</span>
 
-    <footer></footer>
-    <script src='https://code.jquery.com/jquery-3.3.1.min.js' type='text/javascript'></script>
-    <script src='./menu.js' type='text/javascript'></script>
+		<div id="mainMenu" class="mainmenu" style="position: absolute;">
+			<ul class="firstLevelMenu">
+				<li>
+					l1 kdjakljksjdklsjdskljlk
+					<ul class="hidden">
+						<li class="submenubackbtn">back</li>
+						<li>
+							L11
+						</li>
+						<li>
+							L12
+						</li>
+						<li>
+							L13
+						</li>
+					</ul>
+				</li>
+				<li>
+					l2
+				</li>
+				<li>
+					l3
+				</li>
+			</ul>
+		</div>
+		<div class="backdrop hidden">
+		</div>
+	</header>
+
+	<nav class="desktopMenu">
+		<ul>
+			<li>
+				<a href="home.html">Home</a>
+			</li>
+			<li>
+				<a href="products.html">Products
+					<span class="caret"></span>
+				</a>
+				<div>
+					<ul>
+						<li>
+							<a href="products.html#chair">Chair</a>
+						</li>
+						<li>
+							<a href="products.html#table">Table</a>
+						</li>
+						<li>
+							<a href="cooker.html">Cooker</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="products.html">About
+					<span class="caret"></span>
+				</a>
+				<div>
+					<ul>
+						<li>
+							<a href="products.html#chair">Chair_about
+								<span class="caret"></span>
+							</a>
+							<div>
+								<ul>
+									<li>
+										<a href="#">1</a>
+									</li>
+									<li>
+										<a href="#">2</a>
+									</li>
+									<li>
+										<a href="#">3</a>
+									</li>
+									<li>
+										<a href="#">4</a>
+									</li>
+									<li>
+										<a href="#">5</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="products.html#table">Table_about</a>
+						</li>
+						<li>
+							<a href="cooker.html">Cooker_about</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="help.html">Help</a>
+			</li>
+		</ul>
+	</nav>
+	<Main>
+		<div class="content">Saransh Mehra
+			<div>dsdasdasdda</div>
+			<div>dsdasdasdda</div>
+		</div>
+	</Main>
+
+	<footer></footer>
+	<script src='https://code.jquery.com/jquery-3.3.1.min.js' type='text/javascript'></script>
+	<script src='./menu.js' type='text/javascript'></script>
 </body>
 
 </html>
